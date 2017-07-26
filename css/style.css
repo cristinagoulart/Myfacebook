@@ -1,0 +1,401 @@
+body{
+    font: 12px/1.0 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+/* Global */
+.main-header{
+    padding-top:8px;
+    position:fixed; 
+    width:100%;
+     /* margin:auto;  */
+    /* overflow:hidden;  */
+    height:43px;
+    top:0;
+    left:0;
+    background:#3b5998;
+    color:#ffffff;
+    z-index: 1;
+}
+.main-header2{
+    position: fixed;
+    padding-top: 0px;
+    left: 45%;
+    z-index: 2;
+}
+
+#art-white{
+    position: absolute;
+    left: 5px;
+    /* height: 25px; */
+    /* vertical-align: middle; */
+    border-radius: 2px;
+}
+
+#searcharea{
+    position: absolute;
+    top: 0px;
+    left:45px;
+    height:40px;
+}
+
+#searchbox{
+    width:35%;
+    height:25px;
+    background:white;
+    padding:5px;
+    border-radius:2px/2px;
+    border:0;
+}
+#searchbutton{
+    width: 45px;
+    height: 25px;
+    top:0px;
+    margin-left: -10px;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    border: 0;
+
+}
+
+#profileimage{
+    position: absolute;
+    top: 0px;
+    left: 45px;
+    height: 25px;
+}
+#imgprof{
+    height: 25px;
+}
+
+#profname{
+    position: absolute;
+    top:8px;
+    left:70px;
+    height:20px;
+    font-size:12px;
+    font-family:verdana;
+}
+
+#home{
+    position: absolute;
+    top:8px;
+    left:140px;
+    height:20px;
+    font-size:12px;
+    font-family:verdana;
+}
+#friends{
+    position: absolute;
+    top: -8px;
+    left: 210px;
+    height: 20px;
+
+}
+#message{
+    position: absolute;
+    top: 2px;
+    left: 260px;
+    height: 18px;
+
+}
+#notes{
+    position: absolute;
+    top: -10px;
+    left: 280px;
+    height: 18px;
+
+}
+#questions{
+    position: absolute;
+    top: 1px;
+    left: 360px;
+    height: 20px;
+
+}
+#expand{
+    position: absolute;
+    top: 2px;
+    left:380px;
+    height: 25px;
+
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+a:hover { 
+    color: white;
+    background-color: #1b6192;
+}
+
+
+
+/* Header **/
+header{
+    min-height:30px;
+    padding-bottom: 0px; 
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  margin-top:0;
+}
+
+
+/*Left Bar  */
+.left-side{
+    top:70px;
+    left:0px;
+    position:absolute;
+    width:200px;
+    height:740px;
+    font-family:verdana;
+}
+#left1{
+    top:0;
+    left:0px;
+    width:200px;
+    height:25px;
+    font-size:12px;
+    color:#363030;
+    padding-left:10px;
+}
+#left1:hover { 
+    background:#e9f0f2;
+    cursor: pointer;
+}
+
+#left2 {
+    top:40px;
+    left:0px;
+    height: 25px;
+    color:#363030;
+    font-size: 12px;
+    padding-top:5px;
+    padding-left:10px;
+}
+#left2:hover{
+    background: #e9f0f2;
+    cursor: pointer;
+}
+#left3 {
+    top:65px;
+    left:0px;
+    height: 25px;
+    color:#363030;
+    font-size: 12px;
+    padding-top:5px;
+    padding-left:10px;
+}
+#left3:hover{
+    background: #e9f0f2;
+    cursor: pointer;
+}
+
+#left4{
+    top: 110px;
+    left: 10px;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+#left5{
+    top:135px;
+    left:0px;
+    height: 25px;
+    color:#363030;
+    font-size: 12px;
+    padding-top:5px;
+    padding-left:10px;
+}
+#left5:hover{
+    background: #e9f0f2;
+    cursor: pointer;
+}
+#left6{
+    top:160px;
+    left:0px;
+    height: 25px;
+    color:#363030;
+    font-size: 12px;
+    padding-top:5px;
+    padding-left:10px;
+}
+#left6:hover{
+    background: #e9f0f2;
+    cursor: pointer;
+}
+
+#left7{
+    top:185px;
+    left:0px;
+    height: 25px;
+    color:#363030;
+    font-size: 12px;
+    padding-top:5px;
+    padding-left:10px;
+}
+#left7:hover{
+    background: #e9f0f2;
+    cursor: pointer;
+}
+#profpic{
+    height:25px;
+}
+
+/*Body  */
+.main-post{
+    top:60px;
+    left:200px;
+    position:absolute;
+    width:500px;
+    height:150px;
+    color:#e9f0f2;
+    background:white;
+}
+#post1{
+    top:0;
+    left: 0;
+    width: 500px;
+    height: 30px;
+    background: #ebebeb;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #3b5998;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#post1:hover{
+    cursor: pointer;
+}
+
+#post2{
+    top:30px;
+    left:0;
+    width:500px;
+    height: 80px;
+    background: white;
+}
+#textbox{
+    height:80px;
+    width: 500px;
+    outline:none;
+    resize: none;
+    border:white;
+    background:white;
+
+}
+
+#post3{
+    top:130px;
+    left:0;
+    width:500px;
+    height: 50px;
+    background: #ebebeb;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #3b5998;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#btnpost31{
+    color:#363030;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+}
+#btnpost32{
+    color:#363030;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 130px;
+    height: 30px;
+}
+
+#btnpost33{
+    color:#363030;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 50px;
+    height: 30px;
+}
+
+#textbox::placeholder{
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.main-post1{
+    top:260px;
+    left:200px;
+    position:absolute;
+    width:500px;
+    height:600px;
+    color:#e9f0f2;
+    background:white;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+#post1user{
+    top:0;
+    left: 0;
+    width: 500px;
+    height: 30px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #3b5998;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+#post1time{
+    top:30px;
+    left: 35px;
+    width: 65px;
+    height: 30px;
+    border-radius: 0px;
+    font-size: 12px;
+    color: gray;
+    font-weight: normal;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+#post1text{
+    top: 60px;
+    left: 0;
+    width: 500px;
+    height: 50px;
+    color:#363030;
+    font-size: 14px;
+    padding-top:5px;
+}
+
+#post1image{
+    top: 120px;
+    left: 0px;
+    width: 250px;
+    height: 300px;
+    color:#363030;
+    font-size: 14px;
+    padding-top:5px;
+
+}
